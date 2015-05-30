@@ -81,9 +81,10 @@ header h5 {
 }
 section {
   margin: 30px auto;
-  width: 825px;
+  width: 825px;hr
   display: block;
 }
+
 .products {
   text-align: center;
   height: 288px;
@@ -218,13 +219,7 @@ section {
 .customers {
   margin-bottom: 50px;
 }
-hr {
-  background: white url('img-hr.png') no-repeat scroll 50% 50%;
-  clear: both;
-  border: 0;
-  color: transparent;
-  height: 12px;
-}
+
 .manifesto {
   margin-top: 0;
   margin-bottom: 50px;
@@ -351,6 +346,13 @@ div {
   left: 800px;
   width: 143px;
   height: 145px;
+}
+hr {
+  background: white url('img-hr.png') no-repeat scroll 50% 50%;
+  clear: both;
+  border: 0;
+  color: transparent;
+  height: 12px;
 }
 .offerings h2 {
   font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
@@ -506,6 +508,13 @@ footer p {
   color: #999;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   margin-top: 50px;
+}
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 h1 {
   display: block;
