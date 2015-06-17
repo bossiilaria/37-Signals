@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale-1">
 		<title>37signals: Web-based collaboration apps for small business</title>	
-		<link rel="stylesheet" href="main.css">
 		<link rel="icon" type="image/ico" href="favicon.ico">
-		<link rel="stylesheet" type ="text/css" href="37signals.css">
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-		<script type="text/javascript" src="37signals.js"></script>
-
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" type ="text/css" href="main.css">
 	</head>
-
 	<body>
+	<div class="container">
 		<nav>
-			
 			<ul>		
 				<li><a href="http://codifyacademy.com/salespage/#">Company blog</a></li>
 				<li><a href="http://codifyacademy.com/salespage/#">Our story</a></li>
@@ -55,15 +54,13 @@
 		</section>
 		
 		<hr>
-		<section class="customers">	
-			<h2>Millions of entrepreneurs, freelancers, small businesses, and departments inside big organizations rely on our web apps.</h2>
-		<<img src="Images/img-customers.png" alt="cstmr">
 			<div class="meet">				
 				<a href="http://codifyacademy.com/salespage/#">Customers</a>
 				<p>Meet some customers</p>
 			</div>
-			
-			<div class="arrow-left">
+		<section class="customers">	
+			<h2>Millions of entrepreneurs, freelancers, small businesses, and departments inside big organizations rely on our web apps.</h2>
+			<div hidden class="arrow-left">
 				<img src="Images/arrow-customer.png" alt="arrw">
 			</div>
 			
@@ -141,26 +138,24 @@
 					<img src="Images/img-rework.png" alt="REWORK">
 				</a>
 			</div>
-			
-			<div class="quotes">
-				<h3>&ldquo;If given a choice between investing in someone who has read REWORK or has an MBA, I'm investing in REWORK every time. A must read for every entrepreneur.&rdquo;</h3>
-				<p>- Mark Cuban, co-founder HDNet, owner of the Dallas Mavericks</p>
-				<h3>"The wisdom in these pages is edgy yet simple, straightforward, and proven. Read this book multiple times to help give you the courage you need to get out there and make something great."</h3>
-				<p>- Tony Hsieh, CEO of Zappos.com</p>
-			</div>			
-			
-			<div class="arrow-right">
-				<img src="Images/arrow-rework.png" alt="arrw">
-			</div>
+				<div class="quotes">
+					<h3>&ldquo;If given a choice between investing in someone who has read REWORK or has an MBA, I'm investing in REWORK every time. A must read for every entrepreneur.&rdquo;</h3>
+					<p>- Mark Cuban, co-founder HDNet, owner of the Dallas Mavericks</p>
+					<h3>"The wisdom in these pages is edgy yet simple, straightforward, and proven. Read this book multiple times to help give you the courage you need to get out there and make something great."</h3>
+					<p>- Tony Hsieh, CEO of Zappos.com</p>
+				</div>			
+				<div class="arrow-right">
+					<img src="Images/arrow-rework.png" alt="arrw">
+				</div>
 		
-			<div class="crumple">
-				<a href="http://codifyacademy.com/salespage/#">
+				<div class="crumple">
+					<a href="http://codifyacademy.com/salespage/#">
 					<img src="Images/img-crumple.png" alt="crmpl">
 					<p>Find out more</p>
-				</a>
+					</a>
+				</div>
 			</div>
 		</section>
-		
 		<hr>
 		<section class="offerings">
 			<h2>Here's everything we offer, soup to nuts.</h2>
@@ -265,9 +260,10 @@
 			<p>
 		</footer>
 		
-		
-	
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+			<!-- Latest compiled and minified JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="37signals.js"></script>	
+		</div>
 	</body>
-	
-	
 </html>
